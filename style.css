@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900;500;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(Assets/Images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: max(1000px, 100vw);
+    position: relative;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    background-color: rgba(0, 0, 0, 0.007);
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    border: none;
+}
+
+.btn1 {
+    background-color: rgba(0, 0, 0, 0.282);
+    color: white;
+    border: .5px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 33px;
+    margin: 0px 20px;
+}
+
+.btn-red-sm {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+}
+
+.hero {
+    height: calc(100% - 88px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.hero>:first-child {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.line {
+    height: 7px;
+    background-color: #2d2d2d;
+}
+
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 13px 30px;
+    font-size: 24px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.main input {
+    background-color: rgba(20, 20, 20, .2);
+    border: .5px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 16px 195px 16px 12px;
+    color: white;
+}
+
+.hero-bottons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+section {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.first {
+    color: white;
+    max-width: 30vw;
+}
+
+.forth {
+    max-width: 32vw;
+}
+
+.first :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 20px 0px;
+}
+
+.first :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+section div img {
+    max-width: 30vw;
+}
+
+.tvimg1 {
+    position: relative;
+}
+
+.section1 div video {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 55%;
+}
+
+.tvimg2 {
+    position: relative;
+    z-index: 10;
+}
+
+.section3 .fit {
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 48%;
+    position: absolute;
+    top: 7%;
+    left: 19%;
+}
+
+.faq {
+    max-width: 61vw;
+    margin: auto;
+}
+
+.faq1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+}
+
+.hov {
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+}
+
+.hov :hover {
+    background-color: #414141;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.box div {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 28px;
+}
+
+.box img {
+    padding-right: 30px;
+}
+
+.section5 {
+    max-width: 60vw;
+    margin: 60px auto;
+
+}
+
+.section5 div {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section5 input {
+    background-color: rgba(20, 20, 20, .2);
+    border: .5px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 16px 195px 16px 12px;
+    color: white;
+}
+
+.input2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+footer {
+    max-width: 60vw;
+    margin: 60px auto;
+    color: white;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items a {
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+footer>:first-child {
+    padding: 0px 0px 20px 0px;
+}
+
+
+.btn2 {
+    background-color: rgba(0, 0, 0, 0.282);
+    color: white;
+    border: .5px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 33px;
+    margin: 25px 0px;
+}
+
+@media screen and (max-width:1300px) {
+    nav {
+        max-width: 90vw;
+    }
+
+    nav img {
+        width: 130px;
+    }
+
+    .hero>:first-child {
+        font-size: 40px;
+    }
+
+    .first {
+        max-width: 90vw;
+        width: 90vw;
+    }
+
+    section {
+        max-width: 90vw;
+        width: 90vw;
+    }
+
+    section div img {
+        max-width: 45vw;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .faq {
+        max-width: 85vw;
+    }
+
+    .section5 {
+        max-width: 90vw;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    nav img {
+        width: 100px;
+    }
+
+    .btn1 {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 13px;
+        margin: 0px 10px;
+    }
+
+    .btn-red-sm {
+        font-size: 10px;
+        padding: 7px 12px;
+    }
+
+    .hero>:first-child {
+        font-size: 31px;
+        font-weight: bold;
+    }
+
+    .hero-bottons {
+        flex-direction: column;
+    }
+
+    .main input {
+        padding: 16px 85px 16px 12px;
+    }
+
+    .btn-red {
+        padding: 10px 25px;
+        font-size: 17px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    section div img {
+        max-width: 90vw;
+    }
+
+    .first :first-child {
+        font-size: 32px;
+        font-weight: bolder;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .first :nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .input2 {
+        flex-direction: column;
+    }
+
+    .section5 input {
+        padding: 16px 85px 16px 12px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 0px 30px;
+    }
+
+    .faq1 {
+        font-size: 30px;
+    }
+
+    .box div {
+        font-size: 16px;
+    }
+}
