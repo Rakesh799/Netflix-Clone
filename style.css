@@ -307,7 +307,14 @@ footer>:first-child {
     margin: 25px 0px;
 }
 
+@media screen and (max-width:1850px) {
+    .main {
+        background-size: max(1850px, 100vw);
+    }
+}
+
 @media screen and (max-width:1300px) {
+
     nav {
         max-width: 90vw;
     }
